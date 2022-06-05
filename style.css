@@ -42,6 +42,33 @@ a {
   transition: all 100ms ease-in-out;
 }
 
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: #085480;
+}
+
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -121,33 +148,6 @@ a {
   max-height: 40px;
 }
 
-nav {
-  padding: 20px 0;
-}
-
-nav ul {
-  padding: 0;
-  margin: 0;
-}
-
-nav li {
-  display: inline;
-  list-style: none;
-  line-height: 42px;
-  margin-left: 15px;
-}
-
-nav a {
-  text-decoration: none;
-  color: #272142;
-  transition: all 100ms ease-in-out;
-}
-
-nav a:hover,
-nav li.active a {
-  color: #085480;
-}
-
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -174,5 +174,9 @@ nav li.active a {
   .project-desciption {
     padding: 0;
     text-align: center;
+  }
+
+  img {
+    width: 150px;
   }
 }
