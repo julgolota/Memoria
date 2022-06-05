@@ -157,7 +157,6 @@ nav li.active a {
   h2 {
     font-size: 44px;
   }
-
   .hero {
     padding: 80px 20px;
   }
@@ -174,9 +173,5 @@ nav li.active a {
   .project-desciption {
     padding: 0;
     text-align: center;
-  }
-
-  img {
-    width: 150px;
   }
 }
