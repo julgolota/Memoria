@@ -78,6 +78,12 @@ footer a {
   transition: all 100ms ease-in-out;
 }
 
+footer a:hover {
+  color: #085480;
+  background-color: var(--branding-color);
+  transition: all 100ms ease-in-out;
+}
+
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -136,7 +142,8 @@ footer a {
 }
 
 .btn-branding:hover {
-  color: var(--secondary-color);
+  color: #085480;
+  background-color: var(--branding-color);
   transition: all 100ms ease-in-out;
 }
 
